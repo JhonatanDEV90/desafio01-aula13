@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap" rel="stylesheet');
+font-family: 'Open Sans', sans-serif;
+
+
+#desafio1 {
+    color: orange;
+
+}
+
+#lista1 {
+    color: #110ed4;
+    background-color: rgb(42, 194, 28);
+}
+
+#lista2 {
+    color: #110ed4;
+    background-color: rgb(42, 194, 28);
+}
+
+p :focus{
+    color: rgb(177, 130, 43);
+}
+
+div {
+    border: solid 1px black;
+    display: inline-block;
+    font-size: 32px;
+    font-family: Arial;
+    width: 100px;
+    height: 110px;
+    overflow: hidden;
+    margin: 5px;
+    padding: 10px;
+   }
+
+
+.borda {
+    margin-bottom: 5px;
+    margin-top: 5px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    margin-right: 8px;
+    margin-left: 8px;
+    padding-right: 9px;
+    padding-left: 9px;
+    overflow: auto;
+}
+
+.borda:hover{
+    color: orange;
+}
+
+.elementos {
+    display: inline;
+    background-color: rgb(130, 19, 19);
+    background-image: linear-gradient(to bottom,red,yellow);
+}
+
+.span {
+    display: block;
+    background-color: grey;
+}
